@@ -646,6 +646,8 @@ mod cloud;
 pub mod common;
 #[cfg(feature = "compute")]
 pub mod compute;
+#[cfg(feature = "identity")]
+pub mod identity;
 #[cfg(feature = "image")]
 pub mod image;
 #[cfg(feature = "network")]
